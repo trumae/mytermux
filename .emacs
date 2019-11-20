@@ -58,11 +58,13 @@
     (dot . t)
     (lisp . t)
 ;    (tcl . t)
-;    (emacs-lisp . t)
+    (emacs-lisp . t)
     (gnuplot . t)
 ;    (latex . t)
 ;    (ocaml . nil)
     (python . t)
+    (C t)
+    (calc t)
 ;    (ruby . t)
 ;    (sh . t)
     (sqlite . t)))
@@ -122,7 +124,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (dot-mode lua-mode go-mode company magit org htmlize ox-gfm org-bullets use-package haskell-mode))))
+    (## dot-mode lua-mode go-mode company magit org htmlize ox-gfm org-bullets use-package haskell-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
